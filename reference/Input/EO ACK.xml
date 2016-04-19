@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><aex:AEX_ServiceOrderAcceptance xmlns:aex="http://www.aeroxchange.com">
+  <aex:AcceptanceHeader>
+    <aex:CommunicationArea>
+     <aex:CustomerCode>MQB2</aex:CustomerCode>
+      <aex:SupplierCageCode>MQSC2</aex:SupplierCageCode>
+      <aex:MessageSeqID>0</aex:MessageSeqID>
+      <aex:CreationDateTime>2016-12-11T04:02:31-07:00</aex:CreationDateTime>
+    </aex:CommunicationArea>
+    <aex:MessageSender>
+      <aex:ID>MQSC2</aex:ID>
+      <aex:Name>MQ Buyer2</aex:Name>
+      <aex:CompanyCode>MQSC2</aex:CompanyCode>
+      <aex:Email>mq@sellercompany2.com</aex:Email>
+    </aex:MessageSender>
+    <aex:ProductType>AEROCOMPONENT</aex:ProductType>
+  </aex:AcceptanceHeader>
+  <aex:AcceptanceDetail>
+    <aex:MessagePurposeIndicator>A</aex:MessagePurposeIndicator>
+    <aex:ServiceOrderNumber>Rad-99044</aex:ServiceOrderNumber>
+    <aex:ReturnLocationDetail>
+      <aex:LocationCode>PROV</aex:LocationCode>
+      <aex:PhysicalLocation/>
+    </aex:ReturnLocationDetail>
+  </aex:AcceptanceDetail>
+</aex:AEX_ServiceOrderAcceptance>

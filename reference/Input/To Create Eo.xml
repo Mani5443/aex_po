@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><aex:AEX_ServiceOrder xmlns:aex="http://www.aeroxchange.com">
+  <aex:OrderHeader>
+    <aex:CommunicationArea>
+      <aex:CustomerCode>MQB2</aex:CustomerCode>
+      <aex:SupplierCageCode>MQSC2</aex:SupplierCageCode>
+      <aex:MessageSeqID>1</aex:MessageSeqID>
+      <aex:CreationDateTime>2015-12-31T01:08:26Z</aex:CreationDateTime>
+    </aex:CommunicationArea>
+    <aex:MessageSender>
+      <aex:ID>MQB2</aex:ID>
+      <aex:Name>MQ Buyer2</aex:Name>
+      <aex:CompanyCode>MQB2</aex:CompanyCode>
+      <aex:Email>MQ@BUYERCOMPANY2.COM</aex:Email>
+      <aex:Telephone>9725568000</aex:Telephone>
+    </aex:MessageSender>
+    <aex:ProductType>AEROCOMPONENT</aex:ProductType>
+  </aex:OrderHeader>
+  <aex:OrderDetail>
+    <aex:PTC>
+      <aex:RequestType>EXC</aex:RequestType>
+      <aex:TransactionType>N</aex:TransactionType>
+      <aex:ContractType>TEST</aex:ContractType>
+      <aex:PartUnderContract>true</aex:PartUnderContract>
+    </aex:PTC>
+    <aex:ServiceOrderNumber>Rad-99044</aex:ServiceOrderNumber>
+    <aex:PartIdentification>
+      <aex:PartNumber>PARTNO01</aex:PartNumber>
+    </aex:PartIdentification>
+    <aex:OrderQuantity aex:UnitOfMeasure="EA">1</aex:OrderQuantity>
+    <aex:ComponentReturnDetail>
+      <aex:SpecifiedShippingDatetime>2015-12-31T08:06:00Z</aex:SpecifiedShippingDatetime>
+    </aex:ComponentReturnDetail>
+    <aex:ReturnLocationDetail>
+      <aex:LocationCode>CUS</aex:LocationCode>
+         </aex:ReturnLocationDetail>
+    <aex:PointOfUseLocation>
+      <aex:LocationCode>POL</aex:LocationCode>
+      <aex:PhysicalLocation/>
+    </aex:PointOfUseLocation>
+    <aex:Description>DESC</aex:Description>
+    <aex:PriorityCode>AOG</aex:PriorityCode>
+    <aex:ComponentDetails>
+      <aex:LineIdentifier>1</aex:LineIdentifier>
+      <aex:LineItemQuantity aex:UnitOfMeasure="EA">1</aex:LineItemQuantity>
+      <aex:LineItemRemarks>EO</aex:LineItemRemarks>
+      <aex:RequestAircraftDetails>
+        <aex:AircraftRegistrationNumber>ACN01</aex:AircraftRegistrationNumber>
+      </aex:RequestAircraftDetails>
+    </aex:ComponentDetails>
+	<aex:CustomField name="a">String</aex:CustomField>
+  </aex:OrderDetail>
+  	<aex:InstallationDetail>
+		<aex:PartIdentification>
+			<aex:PartNumber>X125</aex:PartNumber>
+		</aex:PartIdentification>
+		<aex:SerialNumber>12345edi</aex:SerialNumber>
+		<aex:AircraftRegistrationNumber>ACN01</aex:AircraftRegistrationNumber>
+		<aex:InstallationDatetime>1799-01-01T00:00:00Z</aex:InstallationDatetime>
+	</aex:InstallationDetail>
+  </aex:AEX_ServiceOrder>
